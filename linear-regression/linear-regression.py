@@ -1,5 +1,3 @@
-from numpy import *
-
 def error(data, a, b):
     error = 0.0
     for i in range(len(data)):
