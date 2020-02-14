@@ -2,7 +2,8 @@ from math import e
 
 
 def hypothesis(parameters, x):
-    return 1 / (1 + e ** -(parameters[0] + parameters[1] * x))
+    exponent = parameters[0] + parameters[1] * x
+    return 1 / (1 + e ** -exponent)
 
 
 def logistic_regression(data, learning_rate, num_iterations):
