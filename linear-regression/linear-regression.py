@@ -1,24 +1,33 @@
-def error(data, a, b):
-    error = 0.0
-    for i in range(len(data)):
-        x = data[i, 0]
-        y = data[i, 1]
-        error += (y - (a * x + b)) ** 2
-    return error / float(len(data))
+def hypothesis(parameters, x):
+    return parameters[0] + parameters[1] * x
 
-def gradient_descent(data, a, b, learning_rate, num_iterations):
+
+def linear_regression(data, learning_rate, num_iterations):
+    parameters = [0, 0]
+
     for i in range(num_iterations):
-        a, b = step_gradient(data, a, b, learning_rate)
-    return [a, b]
+        parameters = step_gradient(data, learning_rate, parameters)
 
-def step_gradient(data, a, b, learning_rate):
-    a_gradient = 0.0
-    b_gradient = 0.0
-    for i in range(len(data)):
-        x = data[i, 0]
-        y = data[i, 1]
-        a_gradient += -2 * (y - a * x - b) * x
-        b_gradient += -2 * (y - a * x - b)
-    new_a = a - a_gradient * learning_rate / float(len(data))
-    new_b = b - b_gradient * learning_rate / float(len(data))
-    return [new_a, new_b]
+    return parameters
+
+
+def step_gradient(data, learning_rate, parameters):
+    a = learning_rate
+    m = len(data)
+
+    for point in data:
+        x = point[0]
+        y = point[1]
+        h_x = hypothesis(parameters, x)
+        parameters[0] -= (a / m) * (h_x - y)
+        parameters[1] -= (a / m) * (h_x - y) * x
+
+    return parameters
+
+
+def main():
+    print("Test code goes here")
+
+
+if __name__ == "__main__":
+    main()
