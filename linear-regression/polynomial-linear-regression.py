@@ -1,5 +1,5 @@
 def hypothesis(parameters, x):
-    return parameters[0] + parameters[1] * x + parameters[2] * x ** 2
+    return parameters[0] + parameters[1] * x + parameters[2] * x * x
 
 
 def linear_regression(data, learning_rate, num_iterations):
@@ -21,7 +21,7 @@ def step_gradient(data, learning_rate, parameters):
         h_x = hypothesis(parameters, x)
         parameters[0] -= (a / m) * (h_x - y)
         parameters[1] -= (a / m) * (h_x - y) * x
-        parameters[2] -= (a / m) * (h_x - y) * x ** 2
+        parameters[2] -= (a / m) * (h_x - y) * x * x
 
     return parameters
 
