@@ -60,4 +60,4 @@ Repeat until convergence:
 
 ### Polynomial Algorithm
 
-...
+![formula](http://codecogs.com/svg.latex?h_%5Ctheta%28x%29%3D%5Cfrac%7B1%7D%7B1%2Be%5E%7B-%28%5Ctheta_0%2B%5Ctheta_1x%2B%5Ctheta_2x%5E2%29%7D%7D)
