@@ -12,23 +12,22 @@ def linear_regression(data, learning_rate, num_iterations):
 
 
 def step_gradient(data, learning_rate, parameters):
-    a = learning_rate
-    m = len(data)
+    alpha = learning_rate
 
     for point in data:
         x = point[0]
         y = point[1]
         z = point[2]
         h_xy = hypothesis(parameters, x, y)
-        parameters[0] -= (a / m) * (h_xy - z)
-        parameters[1] -= (a / m) * (h_xy - z) * x
-        parameters[2] -= (a / m) * (h_xy - z) * y
+        parameters[0] -= alpha * (h_xy - z)
+        parameters[1] -= alpha * (h_xy - z) * x
+        parameters[2] -= alpha * (h_xy - z) * y
 
     return parameters
 
 
 def main():
-    print("Test code goes here")
+    print("Test Code")
 
 
 if __name__ == "__main__":
