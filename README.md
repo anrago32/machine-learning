@@ -3,11 +3,9 @@ Machine learning algorithms implemented in Python
 
 ## Linear Regression
 
-### General Formulas
+### Single Variable Algorithm
 
 ![formula](http://latex.codecogs.com/svg.latex?h_%5Ctheta%28x%29%3D%5Ctheta_0%2B%5Ctheta_1x)
-
-### Single Variable Algorithm
 
 Repeat until convergence:
 
@@ -27,11 +25,9 @@ Repeat until convergence:
 
 ## Logistic Regression
 
-### General Formulas
-
-![formula](http://latex.codecogs.com/svg.latex?%5Cfrac%7B1%7D%7B1%2Bexp%7Be%7D%7B-%28h_%5Ctheta%28x%29%3D%5Ctheta_0%2B%5Ctheta_1x%29%7D%7D)
-
 ### Single Variable Algorithm
+
+![formula](http://latex.codecogs.com/svg.latex?%5Cfrac%7B1%7D%7B1%2Be%5E%7B%5Ctheta_0%2B%5Ctheta_1x%29%7D%7D)
 
 Repeat until convergence:
 
