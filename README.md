@@ -3,7 +3,7 @@ Machine learning algorithms implemented in Python
 
 ## Linear Regression
 
-For linear regression, the hypothesis function h generates an output according to the parameters theta. To calculate these parameters, gradient descent is used to minimize the cost function for the hypothesis. Alpha represents the learning rate and m represents the size of the training data set.
+For linear regression, the hypothesis function h generates an output according to the parameters theta. Gradient descent is used to minimize the cost function for the hypothesis and find ideal parameters. Alpha represents the learning rate and m represents the size of the training data set.
 
 ### Single Variable Algorithm
 
@@ -29,7 +29,7 @@ Repeat until convergence:
 
 ## Logistic Regression
 
-For logistic regression, the hypothesis function h generates an output according to the parameters theta. To calculate these parameters, gradient descent is used to minimize the cost function for the hypothesis. Alpha represents the learning rate and m represents the size of the training data set.
+For logistic regression, the hypothesis function h generates an output according to the parameters theta. Gradient descent is used to minimize the cost function for the hypothesis and find ideal parameters. Alpha represents the learning rate and m represents the size of the training data set.
 
 ### Single Variable Algorithm
 
