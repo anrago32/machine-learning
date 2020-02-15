@@ -2,7 +2,7 @@ from math import e
 
 
 def hypothesis(parameters, x):
-    exponent = parameters[0] + parameters[1] * x + parameters[2] * x * x
+    exponent = parameters[0] + parameters[1] * x + parameters[2] * x ** 2
     return 1 / (1 + e ** -exponent)
 
 
@@ -24,7 +24,7 @@ def step_gradient(data, learning_rate, parameters):
         h_x = hypothesis(parameters, x)
         parameters[0] -= a * (h_x - y)
         parameters[1] -= a * (h_x - y) * x
-        parameters[2] -= a * (h_x - y) * x * x
+        parameters[2] -= a * (h_x - y) * x ** 2
 
     return parameters
 
