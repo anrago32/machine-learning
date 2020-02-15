@@ -1,5 +1,6 @@
 # Machine Learning
-Machine learning algorithms implemented in Python
+
+These are some machine learning algorithms implemented in Python.
 
 ## Linear Regression
 
@@ -27,6 +28,10 @@ Repeat until convergence:
 
 ![formula](http://latex.codecogs.com/svg.latex?%5Ctheta_2%3D%5Ctheta_2-%5Cfrac%7B%5Calpha%7D%7Bm%7D%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%28h_%5Ctheta%28x_i%2Cy_i%29-z_i%29y_i)
 
+### Polynomial Algorithm
+
+...
+
 ## Logistic Regression
 
 For logistic regression, the hypothesis function h generates an output according to the parameters theta. Gradient descent is used to minimize the cost function for the hypothesis and find ideal parameters. Alpha represents the learning rate and m represents the size of the training data set.
@@ -52,3 +57,7 @@ Repeat until convergence:
 ![formula](http://codecogs.com/svg.latex?%5Ctheta_1%3D%5Ctheta_1-%5Calpha%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%28h_%5Ctheta%28x_i%2Cy_i%29-z_i%29x_i)
 
 ![formula](http://codecogs.com/svg.latex?%5Ctheta_2%3D%5Ctheta_2-%5Calpha%5Csum_%7Bi%3D1%7D%5E%7Bm%7D%28h_%5Ctheta%28x_i%2Cy_i%29-z_i%29y_i)
+
+### Polynomial Algorithm
+
+...
