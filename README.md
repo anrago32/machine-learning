@@ -3,7 +3,11 @@ Machine learning algorithms implemented in Python
 
 ## Linear Regression
 
-### Single Variable
+### General Formulas
+
+![formula](http://latex.codecogs.com/svg.latex?h_%5Ctheta%28x%29%3D%5Ctheta_0%2B%5Ctheta_1x)
+
+### Single Variable Algorithm
 
 Repeat until convergence:
 
@@ -11,7 +15,7 @@ Repeat until convergence:
 
 ![formula](http://latex.codecogs.com/svg.latex?%5Ctheta_1%3D%5Ctheta_1-%5Cfrac%7B%5Calpha%7D%7Bm%7D%5Csum_%7Bi%3D1%7D%5E%7B%5Cinfty%7D%28h_%5Ctheta%28x_i%29-y_i%29x_i)
 
-### Multi Variable
+### Multi Variable Algorithm
 
 Repeat until convergence:
 
@@ -23,7 +27,11 @@ Repeat until convergence:
 
 ## Logistic Regression
 
-### Single Variable
+### General Formulas
+
+![formula](http://latex.codecogs.com/svg.latex?%5Cfrac%7B1%7D%7B1%2Bexp%7Be%7D%7B-%28h_%5Ctheta%28x%29%3D%5Ctheta_0%2B%5Ctheta_1x%29%7D%7D)
+
+### Single Variable Algorithm
 
 Repeat until convergence:
 
@@ -31,7 +39,7 @@ Repeat until convergence:
 
 ![formula](http://codecogs.com/svg.latex?%5Ctheta_1%3D%5Ctheta_1-%5Calpha%5Csum_%7Bi%3D1%7D%5E%7B%5Cinfty%7D%28h_%5Ctheta%28x_i%29-y_i%29x_i)
 
-### Multi Variable
+### Multi Variable Algorithm
 
 Repeat until convergence:
 
