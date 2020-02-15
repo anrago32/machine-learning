@@ -1,3 +1,7 @@
+# Polynomial Linear Regression
+# Linear regression with polynomial function using gradient descent
+# Written by Alex Rago (2020)
+
 def hypothesis(parameters, x):
     return parameters[0] + parameters[1] * x + parameters[2] * x ** 2
 

@@ -1,3 +1,7 @@
+# Basic Logistic Regression
+# Logistic regression with one variable using gradient descent
+# Written by Alex Rago (2020)
+
 from math import e
 
 

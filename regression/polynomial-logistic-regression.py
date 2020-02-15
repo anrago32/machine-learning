@@ -1,3 +1,7 @@
+# Polynomial Logistic Regression
+# Logistic regression with polynomial function using gradient descent
+# Written by Alex Rago (2020)
+
 from math import e
 
 
