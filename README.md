@@ -35,8 +35,8 @@ Repeat until convergence:
 
 Repeat until convergence:
 
-![formula](http://codecogs.com/svg.latex?5Ctheta_1%3D%5Ctheta_1-%5Calpha%5Csum_%7Bi%3D1%7D%5E%7B%5Cinfty%7D%28h_%5Ctheta%28x_i%2Cy_i%29-z_i%29)
+![formula](http://codecogs.com/svg.latex?%5Ctheta_1%3D%5Ctheta_1-%5Calpha%5Csum_%7Bi%3D1%7D%5E%7B%5Cinfty%7D%28h_%5Ctheta%28x_i%2Cy_i%29-z_i%29)
 
-![formula](http://codecogs.com/svg.latex?5Ctheta_1%3D%5Ctheta_1-%5Calpha%5Csum_%7Bi%3D1%7D%5E%7B%5Cinfty%7D%28h_%5Ctheta%28x_i%2Cy_i%29-z_i%29x_i)
+![formula](http://codecogs.com/svg.latex?%5Ctheta_1%3D%5Ctheta_1-%5Calpha%5Csum_%7Bi%3D1%7D%5E%7B%5Cinfty%7D%28h_%5Ctheta%28x_i%2Cy_i%29-z_i%29x_i)
 
-![formula](http://codecogs.com/svg.latex?5Ctheta_1%3D%5Ctheta_1-%5Calpha%5Csum_%7Bi%3D1%7D%5E%7B%5Cinfty%7D%28h_%5Ctheta%28x_i%2Cy_i%29-z_i%29y_i)
+![formula](http://codecogs.com/svg.latex?%5Ctheta_1%3D%5Ctheta_1-%5Calpha%5Csum_%7Bi%3D1%7D%5E%7B%5Cinfty%7D%28h_%5Ctheta%28x_i%2Cy_i%29-z_i%29y_i)
