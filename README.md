@@ -17,7 +17,7 @@ Repeat until convergence:
 
 ### Multi Variable Algorithm
 
-![formula](http://latex.codecogs.com/svg.latex?h_%5Ctheta%28x%2Cy%29%3D%5Ctheta_0%2B%5Ctheta_1x%2B%5Ctheta2_y)
+![formula](http://latex.codecogs.com/svg.latex?h_%5Ctheta%28x%2Cy%29%3D%5Ctheta_0%2B%5Ctheta_1x%2B%5Ctheta_2y)
 
 Repeat until convergence:
 
@@ -31,7 +31,7 @@ Repeat until convergence:
 
 ### Single Variable Algorithm
 
-![formula](http://latex.codecogs.com/svg.latex?%5Cfrac%7B1%7D%7B1%2Be%5E%7B-%28%5Ctheta_0%2B%5Ctheta_1x%29%7D%7D)
+![formula](http://latex.codecogs.com/svg.latex?h_%5Ctheta%28x%29%3D%5Cfrac%7B1%7D%7B1%2Be%5E%7B-%28%5Ctheta_0%2B%5Ctheta_1x%29%7D%7D)
 
 Repeat until convergence:
 
