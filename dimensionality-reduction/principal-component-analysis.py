@@ -1,6 +1,6 @@
 # Principal Component Analysis
-# Description
-# Written by Alex Rago (2020)
+# Description goes here
+# Written by Alex Rago, 2020
 
 def main():
     print(0)

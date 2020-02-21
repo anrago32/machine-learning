@@ -1,6 +1,6 @@
 # Basic Neural Network
-# Description
-# Written by Alex Rago (2020)
+# Description goes here
+# Written by Alex Rago, 2020
 
 import numpy as np
 

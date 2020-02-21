@@ -1,6 +1,6 @@
 # Basic Linear Regression
 # Linear regression with one variable using gradient descent
-# Written by Alex Rago (2020)
+# Written by Alex Rago, 2020
 
 def hypothesis(parameters, x):
     return parameters[0] + parameters[1] * x
