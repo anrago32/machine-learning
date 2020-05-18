@@ -1,6 +1,6 @@
 # Machine Learning
 
-This repository contains machine learning implementations in Python.
+This repository contains machine learning algorithms implemented in Python.
 
 ## Regression
 
